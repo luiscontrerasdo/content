@@ -44,6 +44,7 @@ $ composer global require "laravel/installer"
 # Place the ~/.config/composer/vendor/bin directory in your PATH so the laravel 
 # executable can be located by your system.
 $ echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
+$ source .bashrc
 ```
 
 Restart Terminal. Now you can create a laravel project with the commands 
